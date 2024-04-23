@@ -1,0 +1,265 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EAECCC;
+}
+
+body ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    background-color: #C3E2C2;
+    color: black;
+    padding: 25px;
+    
+}
+.home{
+    background-color: #EAECCC;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+nav ul{
+    list-style: none;
+}
+
+li h2{
+    margin-right: 530px;
+}
+
+nav ul li{
+    display: inline-flex;
+    margin-right:30px;
+}
+
+.container {
+    display: flex;
+}
+
+.poto1 {
+    max-width: 50%; 
+    height: 450px; 
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.poto2 {
+    max-width: 50%; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.poto3 {
+    max-width: 50%; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.poto4 {
+    max-width: 50%; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.poto5 {
+    max-width: 50%; 
+    height: 300px; 
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.penjelasan1 {
+    font-size: large;
+    max-width: 50%; 
+    padding: 10px;
+}
+.penjelasan2 {
+    font-size: large;
+    max-width: 50%;
+    padding: 10px;
+    margin-left: 40px;
+}
+.penjelasan3 {
+    font-size: large;
+    max-width: 50%; 
+    padding: 10px;
+}
+.penjelasan4 {
+    font-size: large;
+    max-width: 50%;
+    padding: 10px;
+    margin-left: 40px;
+}
+.penjelasan5 {
+    font-size: large;
+    max-width: 50%; 
+    padding: 10px;
+}
+.home h1{
+    text-align: center;
+}
+
+.menu h1{
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+.menu1 {
+    display: flex;
+}
+.menu{
+    background-color: #DBCC95;
+    padding: 10px;
+}
+.menu3 {
+    display: flex;
+}
+.menu4 {
+    display: flex;
+}
+.menu5 {
+    display: flex;
+}
+.harga{
+    font-weight: bold;
+}
+.about{
+    display: flex;
+}
+.potoresto{
+    font-size: large;
+    max-width: 50%;
+    padding: 10px;
+    margin-left: 40px;
+}
+.penjelasan6 {
+    font-size: large;
+    max-width: 50%;
+    padding: 10px;
+}
+.bodyabout{
+    background-color: #cabc88;
+}
+.about{
+   display: flex;
+   width: 100%;
+   padding: auto;
+}
+
+.bodyDaftar {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #DBCC94;
+  }
+  .container1 {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  .container1 header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+  .container1 .form {
+    margin-top: 30px;
+  }
+  
+  .form .input-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  .form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .form .column {
+    display: flex;
+    column-gap: 15px;
+  }
+  .form .gender-box {
+    margin-top: 20px;
+  }
+  .gender-box h3 {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+  .form .gender {
+    column-gap: 5px;
+  }
+  .gender input {
+    accent-color: rgb(130, 106, 251);
+  }
+  .form :where(.gender input, .gender label) {
+    cursor: pointer;
+  }
+  .gender label {
+    color: #707070;
+  }
+  .address :where(input, .select-box) {
+    margin-top: 15px;
+  }
+  .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+  }
+  .form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #19A7CE;
+    border-radius: 11px;
+  }
+  .form button:hover {
+    background: #146C94;
+    transition: all 0.5s ease-in-out;
+  }
+  .selesai{
+    text-align: center;
+  }
